@@ -1,6 +1,6 @@
 # conversation-state-management-service
 
-This service is responsible for SERVICE_PURPOSE. 
+This service is responsible for managing conversation state. 
 
 DEV URL: [tbd]
 LIVE URL: [tbd]
