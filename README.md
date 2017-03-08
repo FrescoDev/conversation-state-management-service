@@ -2,10 +2,10 @@
 
 This service is responsible for managing conversation state. 
 
-DEV URL: [tbd]
-LIVE URL: [tbd]
+DEV URL: [https://d-convo-state-mgmt-service.herokuapp.com/]
+LIVE URL: [https://convo-state-mgmt-service.herokuapp.com/]
 
-[![Build Status](url)](url)
+[![Build Status](https://travis-ci.org/FrescoDev/conversation-state-management-service.svg?branch=master)](https://travis-ci.org/FrescoDev/conversation-state-management-service)
 
 ### Prerequisities
 
@@ -36,6 +36,8 @@ LIVE URL: [tbd]
 6. Run: ```heroku logs``` to view app logs
 7. Run: ```heroku addons:create deployhooks:http --url https://hooks.slack.com/services/{token}``` to add slack deploy hook
 8. Run: ```heroku apps:rename [newname]``` to rename the app
+9. Run: ```heroku create --remote staging``` to create [env] deployment
+10. Run: ```git push staging master``` to deploy to [env]
 
 ## Running the Tests
 
